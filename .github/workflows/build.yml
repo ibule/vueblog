@@ -12,6 +12,6 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.ACTION_SECRET }}
         TARGET_REPO: ibule/vueblog
-        TARGET_BRANCH: master
+        TARGET_BRANCH: main
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: blog/.vuepress/dist/
