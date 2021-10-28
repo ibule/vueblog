@@ -1,8 +1,8 @@
 module.exports = {
   lang: "zh-CN",
   // open: true,
-  title: "前端好好玩",
-  description: "前端进阶网站",
-  base: "/vuepress-demo/",
+  title: "vue写的blog",
+  description: "vue-md",
+  base: "/vueblog/",
   serviceWorker: true,
 };
